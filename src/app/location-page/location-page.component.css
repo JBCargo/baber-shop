@@ -1,0 +1,27 @@
+.sub-container {
+  border-top: solid;
+  border-width: 2px;
+  display: flex;
+}
+.map-img {
+  margin-right: 40px;
+}
+.img {
+  width: 70vw;
+  height: 70vh;
+  object-fit: fill;
+}
+.informations {
+  margin: 15px;
+}
+.opening {
+  margin-top: 40px;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

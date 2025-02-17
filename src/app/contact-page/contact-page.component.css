@@ -1,0 +1,26 @@
+.sub-container {
+  border-top: solid;
+  border-width: 2px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+}
+.set-of-services {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}

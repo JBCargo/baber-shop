@@ -1,0 +1,31 @@
+.sub-container {
+  position: relative; /* Nécessaire pour positionner en absolu */
+  display: flex;
+  justify-content: center; /* Centre horizontal */
+  align-items: center; /* Centre vertical */
+}
+.image-shop {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
+.paragraph {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+}
+.buttons {
+  position: absolute;
+  top: 70%;
+}
+button {
+  margin-right: 40px;
+  margin-left: 40px;
+  color: white;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  border-color: black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}

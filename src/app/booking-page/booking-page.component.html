@@ -1,0 +1,30 @@
+<div class="sub-container">
+  <div class="text">Book an appointment</div>
+  <div class="form-container">
+    <div class="element">
+      <p>Choose your service :</p>
+      <select>
+        <option value="Haircut">Haircut</option>
+        <option value="Hair coloring">Hair coloring</option>
+        <option value="Hair treatment">Hair treatment</option>
+      </select>
+    </div>
+    <div class="element">
+      <p>Choose your stylist :</p>
+      <select>
+        <option value="Marthe">Marthe</option>
+        <option value="Bastien">Bastien</option>
+        <option value="Jabril">Jabril</option>
+        <option value="Karo light">Karo light</option>
+        <option value="Bark">Bark</option>
+      </select>
+    </div>
+    <div class="element">
+      <p>Choose a date and time :</p>
+      <input type="datetime-local" />
+    </div>
+    <div class="button-booking">
+      <button [routerLink]="['/confirmation']">BOOK</button>
+    </div>
+  </div>
+</div>
